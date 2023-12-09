@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    
+    
+}
+
+
+
+
+/* Navbar */
+
+.header{
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px;
+   
+
+}
+
+.navbar .container ul {
+    display: flex;
+}
+
+.navbar .container ul li a{
+    padding:10px 30px ;
+    
+}
+
+.container .navbar-logo {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.container .navbar-logo .logo{
+    color: #FD6E0A;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* navbar-body */
+
+.navbar-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-body .navbody-left{
+    padding-left: 200px;
+    
+}
+
+.navbody-left h3{
+    font-size: 45;
+    font-style: normal;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.navbody-left h1{
+    font-size: 60px;
+    text-align: left;
+    padding-bottom: 30px;
+    font-style: normal;
+    font-weight: 600;
+    
+}
+
+.navbody-left p{
+    font-size: 18px;
+    color: #757575;
+}
+
+.navbody-left button {
+    margin-top: 20px;
+}
+
+.download-cv{
+    padding: 10px 30px;
+    display: block;
+    color: #fff;
+    
+}
+
+
+/* About me section */
+
+.about-me{
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #FFF8F3;
+    margin-top: 130px;
+    padding: 100px;
+}
+
+.about-me .about-content{
+    text-align: center;
+}
+
+.about-content h3{
+    font-size: 35px;
+    padding: 20px;
+}
+
+.about-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    padding: 0px 12px;
+}
+
+.about-info-container{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 50px;
+
+}
+
+.text-info .info-title{
+    font-size: 18px;
+    color: #474747;
+}
+
+.text-info .info-desription{
+    font-weight:600 ;
+    font-size: 22px;
+}
+
+/* What i Do section */
+
+.what-i-do{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top:130px;
+    
+}
+
+.what-i-do .section-title{
+    font-size: 35px;
+    padding: 20px;
+    text-align: center;
+}
+
+.what-i-do .section-description{
+    text-align: center;
+    font-size: 18px;
+    color:#757575;
+    padding:0 80px;
+}
+
+.skill-container{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    
+}
+
+.skill-container .skill{
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+padding: 30px;
+   
+}
+
+.skill .skill-title{
+    font-size: 20px;
+    padding: 25px 0;
+}
+
+.skill .skill-description{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+}
+
+/* My resume section */
+
+.resume{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+
+.resume-header{
+    text-align: center;
+    padding: 130px;
+    font-size: 35px;
+}
+
+.resume-content{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.resume-card{
+    padding-right: 30px;
+}
+
+.resume-title{
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: #474747;
+}
+
+.experience{
+    padding: 0px 20px;
+}
+
+.experience .position{
+    font-size: 25px;
+    padding: 15px 0;
+    color: #474747;
+    font-weight: 700;
+}
+
+.experience .institution{
+    font-size: 20px;
+    color: #757575 ;
+    font-weight: 600;
+}
+
+.experience .experience-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #757575;
+    padding: 20px 0;
+}
+
+.download-btn{
+    text-align: center;
+}
+/* Footer section */
+
+footer {
+    background-color: #FFF8F3;
+    padding: 100px;
+    
+}
+
+.footer-container{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+.footer-container .footer-title{
+    text-align: left;
+    padding-bottom: 30px;
+    
+}
+
+.footer-container img{
+    padding: 10px;
+}
+
+.footer-description{
+    padding-right: 100px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    color: #757575;
+}
+
+.footer-container input[type="text"], input[type="email"], textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.submit{
+    padding:20px 40px;
+}
